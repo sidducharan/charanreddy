@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to ASPIRE ACADEMY</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <div class="circle-image"> 
+            <img src="../aspire logo.png" alt="Your Logo" style="object-fit: cover;" width="100" height="50">
+        </div>
+        <h1>ASPIRE ACADEMY</h1>
+        <p>Empowering Students for a Brighter Future</p>
+    </header>
+
+
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="Infrastructure.html">Infrastructure</a>
+      <a href="about.html">About Us</a>
+      <a href="courses.html">Courses</a>
+      <a href="Research.html">Research</a>
+      <a href="News & Updates">News & Updates</a>
+      <a href="placements.html">Placements</a>
+      <a href="almuni.html">Almuni</a>
+      <div class="dropdown">
+        <a href="#">Contact Us</a>
+        <div class="dropdown-content">
+        <a href="address.html">Address</a>
+        <a href="Directions.html">Directions</a>
+        <a href="Busroutes.html">Bus-Routes</a>
+        
+      </div>
+      </div>
+      <div class="dropdown">
+        <a href="#">More</a> 
+        <div class="dropdown-content">
+          <a href="edc_iic.html">EDC / IIC</a> 
+          <a href="media.html">Media</a> 
+          <a href="broucher.html">Broucher</a> 
+          <a href="arts_culture.html">Arts & Culture Clubs</a> 
+        </div>
+      </div>
+    </nav>
+  
+    
+
+    <div class="hero">
+        <h1>Welcome to ASPIRE ACADEMY</h1>
+        <p>Your journey to excellence starts here.</p>
+    </div>
+
+    <div class="container">
+        <section class="College">
+            <h2>College Campus</h2>
+            <div class="slider">
+                <img src="../cvr1.jpeg" alt="College Campus Image 1">
+                <img src="../cvr2.jpeg" alt="College Campus Image 2">
+                <img src="../cvr6.jpg" alt="College Campus Image 3"> 
+            </div>
+        </section>
+
+        <section class="Library">
+            <h2>Library</h2>
+            <div class="slider">
+                <img src="../lib1.jpeg" alt="Library Image 1">
+                <img src="../lib2.jpeg" alt="Library Image 2">
+                <img src="../lib3.jpeg" alt="Library Image 3">
+                <img src="../lib4.jpeg" alt="Library Image 4">
+                <img src="../lib5.jpeg" alt="Library Image 5">
+                <img src="../lib6.jpeg" alt="Library Image 6">
+            </div>
+        </section>
+    </div>
+
+    <footer >
+       <center > <p>&copy; 2025 ASPIRE ACADEMY. All Rights Reserved. <a href="#">Privacy Policy</a></p></center>
+    </footer>
+    <style>
+
+        /* CSS for dropdown ________________________________________*/
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+    
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+    
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+    
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+    
+        .dropdown-content a:hover {
+          background-color: #ddd;
+        }
+      </style>
+    
+    <div class="chatbot-container" id="chatbot">
+      <div class="chatbot-header" id="chatbot-header">Chat with us</div>
+      <div class="chatbot-messages" id="chatbot-messages"></div>
+      <div class="predefined-questions">
+          <button onclick="sendPredefinedMessage('Hello there')">Hello there</button>
+          <button onclick="sendPredefinedMessage('What are the admission requirements?')">What are the admission requirements?</button>
+          <button onclick="sendPredefinedMessage('Tell me about the courses offered.')">Tell me about the courses offered.</button>
+          <button onclick="sendPredefinedMessage('What is the placement record?')">What is the placement record?</button>
+          <button onclick="sendPredefinedMessage('How to contact the administration?')">How to contact the administration?</button>
+          <button onclick="sendPredefinedMessage('What is your EAMCET code ?')">What is your EAMCET code ?</button>
+          </div>
+      <div class="chatbot-input">
+          <input type="text" id="chatbot-input" placeholder="Type your message...">
+          <button id="chatbot-send" onclick="sendUserMessage()">Send</button>
+      </div>
+  </div>
+  
+  <script src="chatbot.js"></script> <!-- Reference to external JavaScript file -->
+ 
+</body>
+</html>

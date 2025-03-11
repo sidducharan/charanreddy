@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Aspire Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="circle-image">
+            <img src="../aspire logo.png" alt="Your Logo" style="object-fit: cover;" width="100" height="50">
+        </div>
+        <h1>ASPIRE ACADEMY</h1>
+        <p>Empowering Students for a Brighter Future</p>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="Infrastructure.html">Infrastructure</a>
+        <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="Research.html">Research</a>
+        <a href="News & Updates">News & Updates</a>
+        <a href="placements.html">Placements</a>
+        <a href="almuni.html">Almuni</a>
+        <div class="dropdown">
+            <a href="#">Contact Us</a>
+            <div class="dropdown-content">
+                <a href="address.html">Address</a>
+                <a href="Directions.html">Directions</a>
+                <a href="Busroutes.html">Bus-Routes</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">More</a>
+            <div class="dropdown-content">
+                <a href="edc_iic.html">EDC / IIC</a>
+                <a href="media.html">Media</a>
+                <a href="broucher.html">Broucher</a>
+                <a href="arts_culture.html">Arts & Culture Clubs</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Courses Offered</h2>
+        <ul>
+            <li>Computer Science</li>
+            <li>Engineering
+                <ul>
+                    <li>Computer Science and Engineering (CSE)</li>
+                    <li>Electronics and Communication Engineering (ECE)</li>
+                    <li>Mechanical Engineering (MECH)</li>
+                    <li>Civil Engineering (CIVIL)</li>
+                    <li>Electrical and Electronics Engineering (EEE)</li>
+                    <li>Artificial Intelligence and Machine Learning (AI&ML)</li>
+                    <li>Data Science (DS)</li>
+                </ul>
+            </li>
+            <li>Business Administration</li>
+            <li>Biotechnology</li>
+        </ul>
+
+        <h2>Engineering Courses Details</h2>
+        <p>Aspire Academy's Engineering programs are designed to provide students with a strong foundation in theory and practical skills. Each department offers state-of-the-art labs and experienced faculty to ensure a high-quality learning experience.</p>
+
+        <h3>Computer Science and Engineering (CSE)</h3>
+        <p>Focuses on software development, algorithms, and computer systems. Students gain expertise in programming languages, data structures, and software engineering principles.</p>
+
+        <h3>Electronics and Communication Engineering (ECE)</h3>
+        <p>Covers topics like electronic circuits, communication systems, and signal processing. Students learn about digital and analog electronics, embedded systems, and wireless communication.</p>
+
+        <h3>Mechanical Engineering (MECH)</h3>
+        <p>Deals with the design, analysis, and manufacturing of mechanical systems. Students study thermodynamics, fluid mechanics, and machine design.</p>
+
+        <h3>Civil Engineering (CIVIL)</h3>
+        <p>Focuses on the design and construction of infrastructure projects like buildings, bridges, and roads. Students learn about structural analysis, geotechnical engineering, and environmental engineering.</p>
+
+        <h3>Electrical and Electronics Engineering (EEE)</h3>
+        <p>Covers electrical power generation, transmission, and distribution, as well as electronic devices and control systems. Students study power electronics, control systems, and renewable energy.</p>
+
+        <h3>Artificial Intelligence and Machine Learning (AI&ML)</h3>
+        <p>Explores the development and application of intelligent systems. Students learn about machine learning algorithms, neural networks, and data mining.</p>
+
+        <h3>Data Science (DS)</h3>
+        <p>Focuses on extracting insights from data using statistical and computational techniques. Students learn about data analysis, data visualization, and machine learning.</p>
+    </div>
+
+    <footer>
+        <center><p>&copy; 2025 ASPIRE ACADEMY. All Rights Reserved. <a href="#">Privacy Policy</a></p></center>
+    </footer>
+
+    <style>
+        /* CSS for dropdown */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .container {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .container ul ul {
+            list-style-type: circle;
+            margin-left: 20px;
+        }
+    </style>
+
+    <div class="chatbot-container" id="chatbot">
+        <div class="chatbot-header" id="chatbot-header">Chat with us</div>
+        <div class="chatbot-messages" id="chatbot-messages"></div>
+        <div class="predefined-questions">
+            <button onclick="sendPredefinedMessage('Hello there')">Hello there</button>
+            <button onclick="sendPredefinedMessage('What are the admission requirements?')">What are the admission requirements?</button>
+            <button onclick="sendPredefinedMessage('Tell me about the courses offered.')">Tell me about the courses offered.</button>
+            <button onclick="sendPredefinedMessage('What is the placement record?')">What is the placement record?</button>
+            <button onclick="sendPredefinedMessage('How to contact the administration?')">How to contact the administration?</button>
+            <button onclick="sendPredefinedMessage('What is your EAMCET code ?')">What is your EAMCET code ?</button>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbot-input" placeholder="Type your message...">
+            <button id="chatbot-send" onclick="sendUserMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>

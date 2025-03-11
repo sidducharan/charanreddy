@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASPIRE ACADEMY</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS for dropdown */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        /* Styles for the new bottom links section */
+        .bottom-links {
+            background-color: #f0f0f0; /* Example background color */
+            padding: 20px;
+            text-align: center; /* Center the links */
+            margin-top: 20px; /* Add some spacing above */
+        }
+
+        .bottom-links a {
+            margin: 0 10px; /* Add spacing between links */
+            text-decoration: none;
+            color: #333; /* Example link color */
+        }
+
+        .bottom-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Image container styles */
+        .img-container {
+            display: flex;
+            flex-wrap: wrap; /* Allow images to wrap */
+            justify-content: center; /* Center the images horizontally */
+            gap: 10px; /* Add some gap between images */
+        }
+
+        .img-container img {
+            max-width: 200px; /* Set a maximum width for the images */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        /* Basic styles for the chatbot */
+        .chatbot-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .chatbot-header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .chatbot-messages {
+            flex-grow: 1;
+            padding: 10px;
+            overflow-y: auto;
+            height: 200px;
+        }
+        .chatbot-input {
+            display: flex;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+        }
+        .chatbot-input input {
+            flex-grow: 1;
+            border: none;
+            padding: 5px;
+            outline: none;
+        }
+        .chatbot-input button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="circle-image">
+            <img src="../aspire logo.png" alt="Your Logo" style="object-fit: cover;" width="100" height="50">
+        </div>
+        <h2>ASPIRE ACADEMY</h2>
+        <p>Empowering Students for a Brighter Future</p>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="Infrastructure.html">Infrastructure</a>
+        <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="Research.html">Research</a>
+        <a href="News & Updates">News & Updates</a>
+        <a href="placements.html">Placements</a>
+        <a href="almuni.html">Alumni</a>
+        <div class="dropdown">
+            <a href="#">Contact Us</a>
+            <div class="dropdown-content">
+                <a href="address.html">Address</a>
+                <a href="Directions.html">Directions</a>
+                <a href="Busroutes.html">Bus Routes</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">More</a>
+            <div class="dropdown-content">
+                <a href="edc_iic.html">EDC / IIC</a>
+                <a href="media.html">Media</a>
+                <a href="broucher.html">Brochure</a>
+                <a href="arts_culture.html">Arts & Culture Clubs</a>
+            </div>
+        </div>
+    </nav>
+    <section class="hero">
+        <h1 class="animated-text">Welcome to ASPIRE</h1>
+        <marquee behavior="alternate" direction="top">*ASPIRE ACADEMY gets the coveted Six year NBA accreditation for two courses*</marquee>
+    </section>
+    <section class="img-container">
+        <img src="../one.jpg" alt="Image 1" class="image">
+        <img src="../two.jpg" alt="Image 2" class="image">
+        <img src="../three.jpg" alt="Image 3" class="image">
+        <img src="../four.jpg" alt="Image 4" class="image">
+        <img src="../five.jpg" alt="Image 5" class="image">
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="images-section">
+        <div class="image-container">
+            <img src="NBA.webp" alt="NBA" style="height: 150px;">
+            <img src="NAAC.jpg" alt="NAAC" style="height: 150px;">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+          <center>  <img src="aicte.png" alt="AICTE" style="height: 150px ; "></center>
+        </div>
+    </section>  
+    
+        <style>.images-section {
+            display: flex;
+            justify-content: center;  /* Align images horizontally in the center */
+            gap: 20px;  /* Add spacing between the images */
+            margin-top: 30px;  /* Optional margin for spacing from the above content */
+        }
+        
+        .image-container img {
+            height: 150px;
+            object-fit: contain;  /* Ensure images maintain aspect ratio */
+        }
+        </style><h1 class="heading">Approvals & Accreditations:</h1>
+<section class="para">  
+    <p>An Autonomous Institute affiliated to JNTU Hyderabad.</p>
+    <p>National Assessment and Accreditation Council</p>
+    <p>National Board of Accreditation</p>
+    <p>AICTE, New Delhi</p>
+    <p>JNTU Hyderabad</p>
+</section>
+
+
+    <section class="bottom-links">
+        <a href="downloads.html">Downloads</a>
+        <a href="transport.html">Transport</a>
+        <a href="resources.html">Resources</a>
+        <a href="carrers.html">Careers</a>
+    </section>
+
+    <footer>
+        <center>
+            <p>&copy; 2025 ASPIRE ACADEMY. All Rights Reserved. <a href="#">Privacy Policy</a></p>
+        </center>
+    </footer>
+    <div class="chatbot-container" id="chatbot">
+        <div class="chatbot-header" id="chatbot-header">Chat with us</div>
+        <div class="chatbot-messages" id="chatbot-messages"></div>
+        <div class="predefined-questions">
+            <button onclick="sendPredefinedMessage('Hello there')">Hello there</button>
+           <br>
+           <br>
+
+            <button onclick="sendPredefinedMessage('What are the admission requirements?')">What are the admission requirements?</button>
+            <br>
+            <br>
+            <button onclick="sendPredefinedMessage('Tell me about the courses offered.')">Tell me about the courses offered.</button>
+            <br>
+            <br>
+           <button onclick="sendPredefinedMessage('What is the placement record?')">What is the placement record?</button>
+           <br>
+           <br>
+            <button onclick="sendPredefinedMessage('How to contact the administration?')">How to contact the administration?</button>
+            <br>
+            <br>
+            <button onclick="sendPredefinedMessage('What is your EAMCET code ?')">What is your EAMCET code ?</button>
+            </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbot-input" placeholder="Type your message...">
+            <button id="chatbot-send" onclick="sendUserMessage()">Send</button>
+        </div>
+    </div>
+    
+    <script src="chatbot.js"></script> <!-- Reference to external JavaScript file -->
+    
+</body>
+</html>

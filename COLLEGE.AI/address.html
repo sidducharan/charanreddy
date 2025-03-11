@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Aspire Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="circle-image">
+            <img src="../aspire logo.png" alt="Your Logo" style="object-fit: cover;" width="100" height="50">
+          </div>
+         
+        <h1>ASPIRE ACADEMY</h1>
+        <p>Empowering Students for a Brighter Future</p>
+    </header>
+
+   
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="Infrastructure.html">Infrastructure</a>
+    <a href="about.html">About Us</a>
+    <a href="courses.html">Courses</a>
+    <a href="Research.html">Research</a>
+    <a href="News & Updates">News & Updates</a>
+    <a href="placements.html">Placements</a>
+    <a href="almuni.html">Almuni</a>
+    <div class="dropdown">
+      <a href="#">Contact Us</a>
+      <div class="dropdown-content">
+      <a href="address.html">Address</a>
+      <a href="Directions.html">Directions</a>
+      <a href="Busroutes.html">Bus-Routes</a>
+      
+    </div>
+    </div>
+    <div class="dropdown">
+      <a href="#">More</a> 
+      <div class="dropdown-content">
+        <a href="edc_iic.html">EDC / IIC</a> 
+        <a href="media.html">Media</a> 
+        <a href="broucher.html">Broucher</a> 
+        <a href="arts_culture.html">Arts & Culture Clubs</a> 
+      </div>
+    </div>
+  </nav>
+
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Email: contact@ASPIRE.edu</p>
+        <p>Phone: +1 (123) 456-7890</p>
+        <p>Address: Mangalpalli, Ibrahimpatnam,RangaReddy, Telangana. </p>
+        
+<p>Campus:</p>
+
+<p>ASPIRE ACADEMY,</p>
+<p>Vastunagar, Mangalpalli (V), Ibrahimpatnam (M),</p>
+<p>Rangareddy (D), Telangana 501 510</p>
+
+
+ <p>8885612391</p>
+
+
+ 
+
+<p>City Office:</p>
+
+<h6>#201 & 202, Ashoka Scintilla,
+above Mebaz and opp. Malabar Gold & Diamonds,
+Himayat Nagar,
+Hyderabad, Telangana 500 029</h6>
+ 
+
+     <p> EAMCET Code:  AARC</p>
+ 
+
+<p>099598 34090 (NOT for placements related. For placements related, call 08414 661663)</p>
+<p>Landline: +91 84146 61602, 084146 61601</p>
+
+ 
+
+<p>E-mail:</p>
+
+<p>For general enquiries: principal@cvr.ac.</p>
+<p>For admissions related enquiries: snreddy@cvr.ac.in</p>
+
+<br>
+<br>
+ 
+
+ 
+    </div>
+
+    <footer>
+       <center> <p>&copy; 2025 ASPIRE ACADEMY. All Rights Reserved. <a href="#">Privacy Policy</a></p></center>
+    </footer>
+    <style>
+
+        /* CSS for dropdown ________________________________________*/
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+    
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+    
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+    
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+    
+        .dropdown-content a:hover {
+          background-color: #ddd;
+        }
+      </style>
+      
+      <div class="chatbot-container" id="chatbot">
+        <div class="chatbot-header" id="chatbot-header">Chat with us</div>
+        <div class="chatbot-messages" id="chatbot-messages"></div>
+        <div class="predefined-questions">
+            <button onclick="sendPredefinedMessage('Hello there')">Hello there</button>
+            <button onclick="sendPredefinedMessage('What are the admission requirements?')">What are the admission requirements?</button>
+            <button onclick="sendPredefinedMessage('Tell me about the courses offered.')">Tell me about the courses offered.</button>
+            <button onclick="sendPredefinedMessage('What is the placement record?')">What is the placement record?</button>
+            <button onclick="sendPredefinedMessage('How to contact the administration?')">How to contact the administration?</button>
+            <button onclick="sendPredefinedMessage('What is your EAMCET code ?')">What is your EAMCET code ?</button>
+            </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbot-input" placeholder="Type your message...">
+            <button id="chatbot-send" onclick="sendUserMessage()">Send</button>
+        </div>
+    </div>
+    
+    <script src="chatbot.js"></script> <!-- Reference to external JavaScript file -->
+     
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Datasets with Chatbot</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+        .dataset-list {
+            list-style: none;
+            padding: 0;
+        }
+        .dataset-item {
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            padding: 15px;
+        }
+        .dataset-item h3 {
+            margin-top: 0;
+        }
+        .dataset-item a {
+            margin-right: 10px;
+        }
+        #chat-container {
+            border: 1px solid #ccc;
+            margin-top: 20px;
+            padding: 10px;
+            height: 300px;
+            overflow-y: auto;
+        }
+        #chat-input {
+            width: 80%;
+            padding: 5px;
+        }
+        #chat-send {
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>College Datasets</h1>
+
+    <section id="search-section">
+      <input type="text" id="dataset-search" placeholder="Search datasets...">
+    </section>
+
+    <section id="datasets">
+        <h2>Environmental Science</h2>
+        <ul class="dataset-list">
+            <li class="dataset-item">
+                <h3 data-keywords="weather, 2023, campus, temperature, humidity">Campus Weather Data (2023)</h3>
+                <p>Data collected from the campus weather station.</p>
+                <a href="datasets/weather_2023.csv" download>Download CSV</a>
+                <a href="datasets/weather_2023_documentation.pdf" download>Documentation</a>
+                <p>License: Creative Commons Attribution 4.0 International</p>
+            </li>
+            <li class="dataset-item">
+                <h3 data-keywords="air, quality, local, pollution, measurements">Local Air Quality Data</h3>
+                <p>Air quality measurements from surrounding area.</p>
+                <a href="datasets/air_quality.json" download>Download JSON</a>
+                <a href="datasets/air_quality_documentation.pdf" download>Documentation</a>
+                <p>License: MIT License</p>
+            </li>
+        </ul>
+
+        <h2>Social Sciences</h2>
+        <ul class="dataset-list">
+            <li class="dataset-item">
+                <h3 data-keywords="student, survey, satisfaction, anonymized, results">Student Survey Data (Anonymized)</h3>
+                <p>Results from a student satisfaction survey.</p>
+                <a href="datasets/survey_data.xlsx" download>Download XLSX</a>
+                <a href="datasets/survey_documentation.pdf" download>Documentation</a>
+                <p>License: CC BY-NC 4.0</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="chat">
+        <h2>Dataset Chatbot</h2>
+        <div id="chat-container"></div>
+        <input type="text" id="chat-input">
+        <button id="chat-send">Send</button>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Search functionality
+            const searchInput = document.getElementById('dataset-search');
+            const datasetItems = document.querySelectorAll('.dataset-item');
+
+            searchInput.addEventListener('input', function() {
+                const searchTerm = searchInput.value.toLowerCase();
+
+                datasetItems.forEach(item => {
+                    const itemText = item.textContent.toLowerCase();
+                    if (itemText.includes(searchTerm)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+
+            // Chatbot functionality
+            const chatContainer = document.getElementById('chat-container');
+            const chatInput = document.getElementById('chat-input');
+            const chatSend = document.getElementById('chat-send');
+            const datasets = document.querySelectorAll('.dataset-item');
+
+            chatSend.addEventListener('click', sendMessage);
+            chatInput.addEventListener('keypress', function(event) {
+                if (event.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+
+            function sendMessage() {
+                const message = chatInput.value.trim();
+                if (message) {
+                    appendMessage('user', message);
+                    respondToMessage(message.toLowerCase());
+                    chatInput.value = '';
+                }
+            }
+
+            function appendMessage(sender, text) {
+                const messageDiv = document.createElement('div');
+                messageDiv.textContent = `${sender}: ${text}`;
+                chatContainer.appendChild(messageDiv);
+                chatContainer.scrollTop = chatContainer.scrollHeight; // Scroll to bottom
+            }
+
+            function respondToMessage(message) {
+                let response = "I'm sorry, I don't have information on that.";
+                datasets.forEach(dataset => {
+                    const keywords = dataset.querySelector('h3').getAttribute('data-keywords').split(', ');
+                    if (keywords.some(keyword => message.includes(keyword))) {
+                        response = `It seems you are interested in "${dataset.querySelector('h3').textContent}". Check the dataset section above!`;
+                    }
+                });
+                appendMessage('chatbot', response);
+            }
+        });
+    </script>
+</body>
+</html>

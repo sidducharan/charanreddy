@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASPIRE ACADEMY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="circle-image">
+            <img src="../aspire logo.png" alt="Your Logo" style="object-fit: cover;" width="100" height="50">
+        </div>
+        <h2>ASPIRE ACADEMY</h2>
+        <p>Empowering Students for a Brighter Future</p>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="Infrastructure.html">Infrastructure</a>
+        <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="Research.html">Research</a>
+        <a href="News & Updates">News & Updates</a>
+        <a href="placements.html">Placements</a>
+        <a href="almuni.html">Almuni</a>
+        <div class="dropdown">
+            <a href="#">Contact Us</a>
+            <div class="dropdown-content">
+                <a href="address.html">Address</a>
+                <a href="Directions.html">Directions</a>
+                <a href="Busroutes.html">Bus-Routes</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">More</a>
+            <div class="dropdown-content">
+                <a href="edc_iic.html">EDC / IIC</a>
+                <a href="media.html">Media</a>
+                <a href="broucher.html">Broucher</a>
+                <a href="arts_culture.html">Arts & Culture Clubs</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="placement-section">
+        <h1>College Placements at ASPIRE ACADEMY</h1>
+        <p>At ASPIRE ACADEMY, we are committed to providing our students with excellent career opportunities. Our strong industry connections and comprehensive training programs ensure that our graduates are well-prepared for the professional world.</p>
+
+        <h2>Placement Highlights</h2>
+        <ul>
+            <li><strong>100% Placement Record:</strong> We have consistently maintained a 100% placement record for the past 6 years.</li>
+            <li><strong>High Salary Packages:</strong> The highest salary package offered in the 2022-23 academic year was Rs. 57,50,000.</li>
+            <li><strong>Multiple High-Value Offers:</strong>
+                <ul>
+                    <li>Over 100 students received offers exceeding Rs. 10 Lakhs.</li>
+                    <li>Approximately 300 students secured offers above Rs. 6 Lakhs.</li>
+                </ul>
+            </li>
+            <li><strong>Top Recruiters:</strong> We have partnerships with over 100 leading companies that regularly recruit our graduates.</li>
+        </ul>
+
+        <h2>Top Recruiting Companies</h2>
+        <p>Some of the top companies that recruit from ASPIRE ACADEMY include:</p>
+        <ul>
+            <li>[Google]</li>
+            <li>[Microsoft]</li>
+            <li>[Youtube]</li>
+            <li>[And so on...]</li>
+        </ul>
+
+        <h2>Placement Statistics (2022-23)</h2>
+        <p>Here are some key placement statistics from the 2022-23 academic year:</p>
+        <ul>
+            <li><strong>Total Number of Placements:</strong> 1500+</li>
+            <li><strong>Average Salary:</strong> [4400000]</li>
+            <li><strong>Number of Companies Visited:</strong> 100+</li>
+        </ul>
+
+        <p>For more detailed information, please visit our <a href="placements.html">Placements</a> page.</p>
+    </section>
+
+    <footer>
+        <center><p>&copy; 2025 ASPIRE ACADEMY. All Rights Reserved. <a href="#">Privacy Policy</a></p></center>
+    </footer>
+
+    <style>
+        /* CSS for dropdown */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        #placement-section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        #placement-section h1, #placement-section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #placement-section ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        #placement-section ul ul {
+            list-style-type: circle;
+            margin-left: 20px;
+        }
+    </style>
+
+    <div class="chatbot-container" id="chatbot">
+        <div class="chatbot-header" id="chatbot-header">Chat with us</div>
+        <div class="chatbot-messages" id="chatbot-messages"></div>
+        <div class="predefined-questions">
+            <button onclick="sendPredefinedMessage('Hello there')">Hello there</button>
+            <button onclick="sendPredefinedMessage('What are the admission requirements?')">What are the admission requirements?</button>
+            <button onclick="sendPredefinedMessage('Tell me about the courses offered.')">Tell me about the courses offered.</button>
+            <button onclick="sendPredefinedMessage('What is the placement record?')">What is the placement record?</button>
+            <button onclick="sendPredefinedMessage('How to contact the administration?')">How to contact the administration?</button>
+            <button onclick="sendPredefinedMessage('What is your EAMCET code ?')">What is your EAMCET code ?</button>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbot-input" placeholder="Type your message...">
+            <button id="chatbot-send" onclick="sendUserMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>

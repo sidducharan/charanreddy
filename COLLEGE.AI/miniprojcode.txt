@@ -1,0 +1,778 @@
+about.html>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Aspire Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="circle-image">
+            <img src="../aspire logo.png" alt="Your Logo" style="object-fit: cover;" width="100" height="50">
+          </div>
+         
+        <h1>ASPIRE ACADEMY</h1>
+        <p>Empowering Students for a Brighter Future</p>
+    </header>
+
+    <nav>
+        
+        <a href="home.html">Home</a>
+        <a href="Infrastructure.html.html">Infrastructure</a>
+                <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="admissions.html">Research</a>
+        <a href="contact.html">Contact</a>
+        
+        <a href="News & Updates">News & Updates</a>
+       
+    </nav>
+
+    <div class="container">
+        <h2>About Us</h2>
+        <p>At ASPIRE ACADEMY, we strive to create an environment where education, innovation, and personal growth flourish. Our mission is to equip students with the knowledge and skills they need to excel in their chosen fields and contribute positively to society.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 ASPIRE ACADEMY. All Rights Reserved. <a href="#">Privacy Policy</a></p>
+    </footer>
+    
+    <div id="chatbot-widget">
+        <h2 style="text-align: center;">Aria</h2> 
+        <div id="conversation-history"></div>
+        <div class="message-input">
+          <input type="text" id="message-input-field" placeholder="Type your message here">
+          <button id="send-message-button">Send</button>
+        </div>
+      </div>  
+      <script src="script.js"></script> 
+</body>
+</html>
+_______________________________________________
+contact.html>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Aspire Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="circle-image">
+            <img src="../aspire logo.png" alt="Your Logo" style="object-fit: cover;" width="100" height="50">
+          </div>
+         
+        <h1>ASPIRE ACADEMY</h1>
+        <p>Empowering Students for a Brighter Future</p>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="Infrastructure.html">Infrastructure</a>
+        <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="Research.html">Research</a>
+        <a href="contact.html">Contact</a>
+        
+        <a href="News & Updates">News & Updates</a>
+        
+
+    </nav>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Email: contact@ASPIRE.edu</p>
+        <p>Phone: +1 (123) 456-7890</p>
+        <p>Address: 123 College Street, City, Country</p>
+        
+<p>Campus:</p>
+
+<p>ASPIRE ACADEMY,</p>
+<p>Vastunagar, Mangalpalli (V), Ibrahimpatnam (M),</p>
+<p>Rangareddy (D), Telangana 501 510</p>
+
+
+ <p>8885612391</p>
+
+
+ 
+
+<p>City Office:</p>
+
+<h6>#201 & 202, Ashoka Scintilla,
+above Mebaz and opp. Malabar Gold & Diamonds,
+Himayat Nagar,
+Hyderabad, Telangana 500 029</h6>
+ 
+
+     <p> EAMCET Code:  AARC</p>
+ 
+
+<p>099598 34090 (NOT for placements related. For placements related, call 08414 661663)</p>
+<p>Landline: +91 84146 61602, 084146 61601</p>
+
+ 
+
+<p>E-mail:</p>
+
+<p>For general enquiries: principal@cvr.ac.</p>
+<p>For admissions related enquiries: snreddy@cvr.ac.in</p>
+
+<br>
+<br>
+ 
+
+ 
+    </div>
+
+    <footer>
+        <p>&copy; 2025 ASPIRE ACADEMY. All Rights Reserved. <a href="#">Privacy Policy</a></p>
+    </footer>
+    <div id="chatbot-widget">
+        <h2 style="text-align: center;">Aria</h2> 
+        <div id="conversation-history"></div>
+        <div class="message-input">
+          <input type="text" id="message-input-field" placeholder="Type your message here">
+          <button id="send-message-button">Send</button>
+        </div>
+      </div>
+    
+  
+      <script src="script.js"></script> 
+</body>
+</html>
+__________________________________________
+courses.html>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Aspire Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="circle-image">
+            <img src="../aspire logo.png" alt="Your Logo" style="object-fit: cover;" width="100" height="50">
+          </div>
+         
+        <h1>ASPIRE ACADEMY</h1>
+        <p>Empowering Students for a Brighter Future</p>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="Infrastructure.html">Infrastructure</a>
+        <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="Research.html">Research</a>
+        <a href="contact.html">Contact</a>
+        
+        <a href="News & Updates">News & Updates</a>
+
+    </nav>
+
+    <div class="container">
+        <h2>Courses Offered</h2>
+        <ul>
+            <li>Computer Science</li>
+            <li>Engineering</li>
+            <li>Business Administration</li>
+            <li>Biotechnology</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 ASPIRE ACADEMY. All Rights Reserved. <a href="#">Privacy Policy</a></p>
+    </footer>
+    
+    <div id="chatbot-widget">
+        <h2 style="text-align: center;">Aria</h2> 
+        <div id="conversation-history"></div>
+        <div class="message-input">
+          <input type="text" id="message-input-field" placeholder="Type your message here">
+          <button id="send-message-button">Send</button>
+        </div>
+      </div>
+    
+  
+      <script src="script.js"></script> 
+</body>
+</html>
+
+
+______________________________________
+home.html>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASPIRE ACADEMY</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <div class="circle-image">
+            <img src="../aspire logo.png" alt="Your Logo" style="object-fit: cover;" width="100" height="50">
+        </div>
+        <h2>ASPIRE ACADEMY</h2>
+        <p>Empowering Students for a Brighter Future</p>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="Infrastructure.html">Infrastructure</a>
+        <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="Research.html">Research</a>
+        <a href="contact.html">Contact</a>
+        <a href="News & Updates">News & Updates</a>
+    </nav>
+
+    <div class="hero">
+        <marquee>*ASPIRE ACADEMY gets the coveted Six year NBA accreditation for two courses*</marquee>
+        <h1>Welcome to ASPIRE</h1>
+    </div>
+
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About Us</h2>
+            <p>ASPIRE ACADEMY is dedicated to providing quality education and fostering innovation. Our campus is home to a diverse community of learners and educators striving for excellence.</p>
+        </div>
+
+        <div id="courses" class="section">
+            <h2>Courses Offered</h2>
+            <ul>
+                <li>Computer Science</li>
+                <li>Engineering</li>
+                <li>Business Administration</li>
+                <li>Biotechnology</li>
+            </ul>
+        </div>
+
+        <div id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Email: contact@ASPIRE.edu</p>
+            <p>Phone: +1 (123) 456-7890</p>
+            <p>Address: 123 College Street, City, Country</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 ASPIRE ACADEMY. All Rights Reserved. <a href="#">Privacy Policy</a></p>
+    </footer>
+    <div id="chatbot-widget">
+        <h2 style="text-align: center;">Aria</h2> 
+        <div id="conversation-history"></div>
+        <div class="message-input">
+          <input type="text" id="message-input-field" placeholder="Type your message here">
+          <button id="send-message-button">Send</button>
+        </div>
+      </div>
+  
+
+    <script src="script.js"></script> </body>
+</html>
+_________________________
+
+infrastructure.html>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to ASPIRE ACADEMY</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <div class="circle-image"> 
+            <img src="../aspire logo.png" alt="Your Logo" style="object-fit: cover;" width="100" height="50">
+        </div>
+        <h1>ASPIRE ACADEMY</h1>
+        <p>Empowering Students for a Brighter Future</p>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="Infrastructure.html">Infrastructure</a>
+        <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="Research.html">Research</a>
+        <a href="contact.html">Contact</a>
+        <a href="News & Updates">News & Updates</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Welcome to ASPIRE ACADEMY</h1>
+        <p>Your journey to excellence starts here.</p>
+    </div>
+
+    <div class="container">
+        <section class="College">
+            <h2>College Campus</h2>
+            <div class="slider">
+                <img src="../cvr1.jpeg" alt="College Campus Image 1">
+                <img src="../cvr2.jpeg" alt="College Campus Image 2">
+                <img src="../cvr6.jpg" alt="College Campus Image 3"> 
+            </div>
+        </section>
+
+        <section class="Library">
+            <h2>Library</h2>
+            <div class="slider">
+                <img src="../lib1.jpeg" alt="Library Image 1">
+                <img src="../lib2.jpeg" alt="Library Image 2">
+                <img src="../lib3.jpeg" alt="Library Image 3">
+                <img src="../lib4.jpeg" alt="Library Image 4">
+                <img src="../lib5.jpeg" alt="Library Image 5">
+                <img src="../lib6.jpeg" alt="Library Image 6">
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 ASPIRE ACADEMY. All Rights Reserved. <a href="#">Privacy Policy</a></p>
+    </footer>
+    <div id="chatbot-widget">
+        <h2 style="text-align: center;">Aria</h2> 
+        <div id="conversation-history"></div>
+        <div class="message-input">
+          <input type="text" id="message-input-field" placeholder="Type your message here">
+          <button id="send-message-button">Send</button>
+        </div>
+      </div>
+    
+  
+      <script src="script.js"></script> 
+    
+</body>
+</html>
+
+__________________________________
+Research.html>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - Aspire Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="circle-image">
+            <img src="../aspire logo.png" alt="Your Logo" style="object-fit: cover;" width="100" height="50">
+          </div>
+           
+        <h1>ASPIRE ACADEMY</h1>
+        <p>Empowering Students for a Brighter Future</p>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="Infrastructure.html">Infrastructure</a>
+        <a href="about.html">About Us</a>
+        <a href="courses.html">Courses</a>
+        <a href="Research.html">Research</a>
+        <a href="contact.html">Contact</a>
+        <a href="News & Updates">News & Updates</a>
+        
+    
+    </nav>
+
+    <div class="container">
+        <h2>Admissions</h2>
+        <p>We welcome students from all walks of life to join our vibrant campus. Explore our programs and apply to embark on your educational journey with us. <a href="#">Apply Now</a></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 ASPIRE ACADEMY. All Rights Reserved. <a href="#">Privacy Policy</a></p>
+    </footer>
+    
+
+    <div id="chatbot-widget">
+        <h2 style="text-align: center;">Aria</h2> 
+        <div id="conversation-history"></div>
+        <div class="message-input">
+          <input type="text" id="message-input-field" placeholder="Type your message here">
+          <button id="send-message-button">Send</button>
+        </div>
+      </div>
+  
+      <script src="script.js"></script> 
+</body>
+</html>
+
+
+_____________________________
+script.html>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+const conversationHistory = document.getElementById('conversation-history');
+const messageInputField = document.getElementById('message-input-field');
+const sendMessageButton = document.getElementById('send-message-button');
+
+
+function displayMessage(message, isUserMessage = false) {
+  const messageElement = document.createElement('p');
+  const messageContainer = document.createElement('div');
+
+  if (isUserMessage) {
+    messageElement.classList.add('user-message');
+    messageContainer.classList.add('user-message-container'); 
+  } else {
+    messageContainer.classList.add('chatbot-message-container'); 
+  }
+
+  messageElement.textContent = message;
+  messageContainer.appendChild(messageElement); 
+  conversationHistory.appendChild(messageContainer);
+}
+
+sendMessageButton.addEventListener('click', async () => {
+  const userMessage = messageInputField.value.trim();
+
+  if (userMessage === '') {
+    alert("Please enter a message.");
+    return;
+  }
+
+  // Display user message
+  displayMessage(`You: ${userMessage}`, true);
+
+  // Simulate chatbot response (Replace with your actual chatbot logic or API integration)
+  let chatbotResponse;
+
+  switch (userMessage.toLowerCase()) {
+    case 'hello':
+    case 'hi':
+      chatbotResponse = "Hi there! How can I assist you today?";
+      break;
+    case 'admission':
+      chatbotResponse = "For admission inquiries, please visit our admissions page or contact the admissions office at [phone number or email]";
+      break;
+    case 'karthik is an idiot' :
+        chatbotResponse ="yes karthik is an mf";
+        break;
+    case 'tell me admission for aspire academy':
+      chatbotResponse = "FFor admission inquiries, please visit our admissions page or contact the admissions office at [phone number or email]";
+      break;
+      case 'courses':
+      chatbotResponse = "We offer a variety of programs. Please visit our courses page for a complete list.";
+      break;
+    case 'fees':
+      chatbotResponse = "For information on tuition fees and other costs, please refer to our fee structure page.";
+      break;
+    case 'contact':
+      chatbotResponse = "You can contact us at [phone number] or [email address].";
+      break;
+    default:
+      chatbotResponse = "I'm still learning. I'm not sure how to answer that yet.";
+  }
+
+  // Add a slight delay to simulate real-time response
+  await new Promise(resolve => setTimeout(resolve, 500)); 
+
+  displayMessage(`Chatbot: ${chatbotResponse}`);
+
+  // Scroll to the bottom of the conversation history
+  conversationHistory.scrollTop = conversationHistory.scrollHeight;
+
+  messageInputField.value = ''; // Clear the input field
+});
+const chatbotWidget = document.getElementById('chatbot-widget');
+
+chatbotWidget.addEventListener('click', () => {
+  chatbotWidget.classList.toggle('active'); 
+});
+________________________________
+style.css>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+/* General Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav {
+  background-color: #f0f0f0;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Text Animations */
+
+h1, h2 {
+  animation: fadeInUp 1s ease-in-out; 
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+p {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* General Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav {
+  background-color: #f0f0f0;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.circle-image {
+  display: inline-block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text Animations */
+
+h1,
+h2,
+.hero p {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+p {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Hero Section */
+
+.hero {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.hero marquee {
+  background-color: #f0f0f0;
+  color: red;
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* About Us Section */
+
+#about {
+  margin-bottom: 2em;
+}
+
+/* Courses Section */
+
+#courses ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#courses li {
+  margin-bottom: 1em;
+}
+
+/* Contact Section */
+
+#contact p {
+  margin-bottom: 0.5em;
+}
+
+/* Admissions Section */
+
+.admissions a {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.admissions a:hover {
+  background-color: #444;
+}
+
+/* Slider (assuming this is in a separate script.js file) */
+
+.slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.slider img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slider img:first-child {
+  opacity: 1;
+}
+#chatbot-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+#conversation-history {
+  height: 200px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.message-container {
+  margin-bottom: 5px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.user-message-container {
+  background-color: #e6f7ff;
+  text-align: right;
+}
+
+.chatbot-message-container {
+  background-color: #e0f2e0;
+  text-align: left;
+}
+
+.message {
+  font-size: 14px;
+}
+
+.message-input {
+  display: flex;
+  margin-top: 10px;
+}
+
+#message-input-field {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+#send-message-button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+

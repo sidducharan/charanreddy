@@ -1,0 +1,37 @@
+[
+    {
+      "course": "Computer Science Engineering",
+      "code": "CSE",
+      "duration": "4 years",
+      "eligibility": "10+2 with PCM",
+      "description": "Focuses on software development, algorithms, and systems."
+    },
+    {
+      "course": "Electronics and Communication Engineering",
+      "code": "ECE",
+      "duration": "4 years",
+      "eligibility": "10+2 with PCM",
+      "description": "Deals with electronic devices, circuits, and communication systems."
+    },
+      {
+      "course": "Mechanical Engineering",
+      "code": "MECH",
+      "duration": "4 years",
+      "eligibility": "10+2 with PCM",
+      "description": "Focuses on design, analysis, manufacturing, and maintenance of mechanical systems."
+    },
+      {
+      "course": "Civil Engineering",
+      "code": "CIVIL",
+      "duration": "4 years",
+      "eligibility": "10+2 with PCM",
+      "description": "Focuses on the design, construction, and maintenance of the physical and naturally built environment."
+    },
+    {
+      "course": "Artificial inteligence and data science",
+      "code": "AIDS",
+      "duration": "4 years",
+      "eligibility": "10+2 with PCM",
+      "description": "Focuses on building and understanding intelligent systems and large datasets."
+    }
+  ]
